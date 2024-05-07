@@ -1,0 +1,65 @@
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+header{
+    overflow: hidden;
+    height: 25%;
+}
+.menucontainer{
+    background-color: #000000;
+    text-align: center;
+    height: 60px;
+    width: ;
+    font-family: 'Abril Fatface';
+}
+.logo{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 120px;
+    width: 0;
+}
+.logo img{
+    float: left;
+    padding: 10px 0px;
+}   
+.menu{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}    
+.menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #000000;
+}
+.menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+.menu li a, .menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.menu li a{
+         
+    color: #FFF;
+}     
+.menu li:hover a, .menu li span{
+    background: #141414;
+    color: #ffffff;
+    border-left: 1px solid #a9a9a9;
+    text-decoration: #a9a9a9;
+}
+.meio{
+    background-color: #000000;
+}
