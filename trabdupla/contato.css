@@ -1,25 +1,38 @@
 
 body{
-    background-color: rgb(63, 59, 59);
-    align
-
+    background-color: #2b2b2b;
+    font-family: "Abril Fatface", serif;
 
 }
 
+
+
+.logo{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
 .titulo{
-    width: 25%;
-    background-color: blueviolet;
+    height: 60px;
+    width: 100%;
+    background-color: #fffdd0;
+    border: 3px solid #fffdd0;
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .card{
-    width: 23%;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
+    
+    width: 20%;
+    background-color: #000;
+    border: 2px solid #929292;
+    border-radius: 20px;
+    padding: 10px;
     margin-bottom: 20px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     margin-left: auto;
@@ -27,14 +40,111 @@ body{
 }
 
 
-.nome{
+/* estilo dos inputs de texto normal*/
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+    border: none;
+    background: transparent;
+    background-color: #fffdd0;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    width: 350px;
+    height: 60px;
+    font-weight: 400px;
+    color: #000;
+    border-radius: 50px;
     
+
+}
+  
+  input[type=text]:focus {
+    border: none;
+    background: transparent;
+    background-color: #fffdd0;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    width: 350px;
+    height: 80px;
+    font-weight: 400px;
+    color: #000;
+    border-radius: 50px;
+
+  }
+
+
+  span{
+    position: left;
+  }
+
+
+  textarea{
+    border: none;
+    background: transparent;
+    background-color: #fffdd0;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    width: 350px;
+    height: 60px;
+    font-weight: 400px;
+    color: #000;
+    border-radius: 50px;
+    resize: none;
+    
+  }
+
+
+.titulos{
+    
+    background-color: #fffdd0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+
+.container{
+    background-color: #fffdd0;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    width: 350px;
+    height: 80px;
+    font-weight: 400px;
+    color: #000;
+    border-radius: 50px;
 }
 
 
 
 
+.botao{
 
-.mensagem {
-    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #2b2b2b;
 }
+
+
+    .botao:hover {
+        background-color: #0ace4b;
+    }
+
+    .botao:active {
+        background-color: #1b582f;
+    }
+
+
