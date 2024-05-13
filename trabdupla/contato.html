@@ -2,55 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de contato</title>
+    <title>pagina para contato</title>
     <link rel="stylesheet" href="contato.css">
 </head>
 <body>
-
-    <h1 class="titulo">Entre em contato</h1>
     
+
+
+
 <div class="card">
 
-        <div class="nome"></div>
-            <h2>Nome</h2>
-            <label for="nome">nome</label>
-            <input type="text" id="assunto" required>
+    <div class="logo">
+    <img src="img/logo.png" alt="logo">
+    </div>
 
-                <br>
 
-        <div class="telefone">
-            <h2>Telefone</h2>
-            <label for="telefone">telefone</label>
-            <input type="text" id="telefone" required>
+        
 
-            <br>
+    <h1 class="titulo">Entre em contato conosco</h1>
 
-        <div class="email">
-            <h2>E-mail</h2>
-            <label for="e-mail">e-mail</label>
-            <input type="email" id="email" required>
+        <div class="container1">
+
+            <label for="nome">nome:</label>
+            <input type="text" id="" required="required" placeholder="seu nome:">
         </div>
 
-        <br>
+        <div class="container1">
+           
+            <label for="telefone">telefone:</label>
+            <input type="text" id="" required="required" placeholder="seu numero de telefone:">
+        </div>
 
+        
+
+        <div class="container1">
+            <label for="e-mail">e-mail:</label>
+            <input type="text" id="" required="required" placeholder="digite seu E-mail">
+        </div>
+
+      
+
+        <div class="container1">
     
-            <h2>Assunto</h2>
-            <label for="assunto">assunto</label>
-            <input type="text" id="assunto" required>
-       
+            <label for="assunto">assunto:</label>
+            <input type="text" id="" required="required" placeholder="motivo do contato">
+        </div>
 
-            <div class="mensagem">
-                <h2>Mensagem</h2>
-                <label for="mensagem">mensagem</label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <div class="container1">
+                
+
+                <label for="mensagem"></label>
+                <span>diga-nos:</span>
+                <textarea  placeholder="descreva o problema"></textarea>
+    
             </div>
+
+            <button class="botao" input type="button">enviar</button>
 
 
 </div>
-
-<button class="botao">Enviar</button>
 
 
 </body>
